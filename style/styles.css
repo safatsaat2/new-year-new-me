@@ -105,3 +105,37 @@
 .plans-items div h2{
     padding-bottom: 14px;
 }
+
+/* call now styles */
+.call-now{
+    margin-top: 130px;
+}
+.call-now-div{
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding:5% 5%;
+    margin-left: 10%;
+}
+
+.call-now-div h2{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.call-now-btn{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #f15b22;
+}
+
+/* footer styles */
