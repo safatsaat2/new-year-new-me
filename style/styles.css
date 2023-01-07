@@ -29,6 +29,7 @@
 }
 
 .header .header-section p {
+    color: #737272;
     padding-top: 24px;
     font-size: 16px;
     text-align: right;
@@ -61,6 +62,10 @@
 .my-failure .my-failure-div div {
     padding-top: 20%;
     padding-right: 10%;
+}
+
+.my-failure .my-failure-div div p {
+    color: #737272;
 }
 
 .my-failure .my-failure-div div h2 {
@@ -113,7 +118,7 @@
 .call-now-div{
     background-image: url(../images/gradient2.png), url(../images/watch.png);
     background-repeat: no-repeat;
-    width: 75%;
+    width: 72%;
     height: 200px;
     border-radius: 10px;
     padding-left: 5%;
@@ -139,3 +144,55 @@
 }
 
 /* footer styles */
+.footer{
+    display: flex;
+    gap: 333px;
+    height: 550px;
+    background-color: black;
+    margin-top: 130px;
+}
+.footer .contact{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.footer .contact h1, p{
+    padding-bottom: 16px;
+    color: white;
+    font-weight: 200;
+}
+
+.footer .contact h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.footer .contact p{
+    font-size: 16px;
+    padding-bottom: 24px;
+    width: 485px;
+}
+.footer .contact div{
+    display: flex;
+    gap: 40px;
+}
+
+.footer .subscribe{
+    padding-top: 10%;
+}
+.footer .subscribe h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 600; 
+    padding-bottom: 24px; 
+}
+.footer .subscribe div{
+    display: block;
+}
+.footer .subscribe input{
+    padding-left: 10px;
+    background-color: black;
+    width: 270px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
