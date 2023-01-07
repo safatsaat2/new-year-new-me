@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: "work sans";
+
+}
+/* Header Styles */
+.header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50%;
+    padding-right: 10%;
+}
+
+.header .header-section h1{
+    font-size: 60px;
+    text-align: right;
+}
+
+.header .header-section p{
+    padding-top: 24px;
+    font-size: 16px;
+    text-align: right;
+}
+
+.header .header-section .btn{
+    color: white;
+    font-weight: 600;
+    background-color: #f15b22;
+    font-size: 20px;
+    margin-top: 24px;
+    width: 150px;
+    height: 64px;
+    margin-left: 72%;
+    border: 0;
+    border-radius: 5px;
+}
