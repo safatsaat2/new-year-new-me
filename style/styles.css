@@ -1,10 +1,15 @@
-*{
+* {
     margin: 0;
     font-family: "work sans";
+}
+
+* p {
+    color: #737272;
 
 }
+
 /* Header Styles */
-.header{
+.header {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     height: 808px;
@@ -13,21 +18,23 @@
     padding-left: 50%;
     padding-right: 10%;
 }
-.header-section{
+
+.header-section {
     padding-top: 50%;
 }
-.header .header-section h1{
+
+.header .header-section h1 {
     font-size: 60px;
     text-align: right;
 }
 
-.header .header-section p{
+.header .header-section p {
     padding-top: 24px;
     font-size: 16px;
     text-align: right;
 }
 
-.header .header-section .btn{
+.header .header-section .btn {
     color: white;
     font-weight: 600;
     background-color: #f15b22;
@@ -41,28 +48,60 @@
 }
 
 /* Failure Section Styles */
-.my-failure{
+.my-failure {
     margin-top: 130px;
 }
-.my-failure .my-failure-div{
+
+.my-failure .my-failure-div {
     display: flex;
     justify-content: center;
     gap: 85px;
 }
-.my-failure .my-failure-div div{
+
+.my-failure .my-failure-div div {
     padding-top: 20%;
     padding-right: 10%;
 }
 
-.my-failure .my-failure-div div h2{
+.my-failure .my-failure-div div h2 {
     font-size: 40px;
     padding-bottom: 24px;
 }
-.my-failure .my-failure-div img{
+
+.my-failure .my-failure-div img {
     padding-left: 10%;
 }
-.my-failure .my-failure-div ul{
+
+.my-failure .my-failure-div ul {
+    color: #737272;
     padding-top: 10px;
     list-style: url(../images/icons/check\ 1.png);
 }
 
+/* My plans Styles */
+.my-plans{
+    margin-top: 130px;
+}
+.my-plans h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.plans-items {
+    display: flex;
+    gap: 150px;
+    padding-left: 10%;
+}
+
+.plans-items div {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.plans-items div img{
+    padding-bottom: 14px;
+}
+.plans-items div h2{
+    padding-bottom: 14px;
+}
