@@ -46,6 +46,7 @@
     margin-left: 72%;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Failure Section Styles */
@@ -195,4 +196,38 @@
     border: 1px solid white;
     border-radius: 5px;
     margin-bottom: 16px;
+}
+/* extra section about me styles */
+.about-me{
+    margin-top: 0px;
+}
+.about-me-div{
+    display: flex;
+    padding-left: 20%;
+}
+
+.about-me h1{
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+.about-me p{
+    color: #737272;
+}
+.about-me div h1{
+    padding-top: 60%;
+}
+.about-me div img{
+    padding-right: 180px;
+}
+.about-me .about-me-div .btn {
+    color: white;
+    font-weight: 600;
+    background-color: #f15b22;
+    font-size: 16px;
+    margin-top: 0px;
+    width: 130px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
 }
